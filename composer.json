@@ -1,0 +1,26 @@
+{
+    "name": "argo/blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Paul M. Jones",
+            "email": "pmjones@pmjones.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Argo\\": "src/"
+        }
+    },
+    "require": {
+        "league/commonmark": "~1.0",
+        "aura/html": "~2.0",
+        "aura/view": "~2.0",
+        "pmjones/auto-route": "~1.0",
+        "pmjones/request": "~2.0",
+        "aura/payload": "~3.0",
+        "psr/log": "~1.0",
+        "seld/jsonlint": "~1.0"
+    },
+    "minimum-stability": "dev"
+}
